@@ -7,7 +7,7 @@ In Part II, Explanatory data visualization, a short presentation illustrates int
 
 This project uses Python 3 and completed through the Jupyter Notebooks IDE. Anaconda distribution was used to install Python, since the distribution includes all necessary Python libraries as well as Jupyter Notebooks. The following libraries are used in this project:
 
-NumPy
-pandas
-Matplotlib
-Seaborn
+- NumPy
+- pandas
+- Matplotlib
+- Seaborn
