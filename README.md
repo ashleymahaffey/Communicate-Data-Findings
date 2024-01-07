@@ -1,13 +1,14 @@
-# Communicate-Data-Findings
-This project has two parts that demonstrate the importance and value of data visualization techniques in the data analysis process.
+# Loan Data
+## by Ashley Mahaffey
 
-In Part I, Exploratory data visualization, Python visualization libraries is used to systematically explore a selected dataset, starting from plots of single variables and building up to plots of multiple variables.
+## Prosper Loans Dataset
 
-In Part II, Explanatory data visualization, a short presentation illustrates interesting properties, trends, and relationships that were discovered in the selected dataset. The primary method of conveying findings is through transforming exploratory visualizations from the first part into polished, explanatory visualizations.
+The dataset used in this analysis consists of loan data from Prosper, a peer-to-peer lending platform. It includes information such as borrower APR, credit grades, loan terms, and other relevant features. The data was sourced from [Loan Data from Prosper (82.5 MB)] and underwent preprocessing to handle missing values and ensure data quality.
 
-This project uses Python 3 and completed through the Jupyter Notebooks IDE. Anaconda distribution was used to install Python, since the distribution includes all necessary Python libraries as well as Jupyter Notebooks. The following libraries are used in this project:
+## Summary of Findings
 
-- NumPy
-- pandas
-- Matplotlib
-- Seaborn
+Our data exploration revealed several insights into the factors influencing borrower APR in Prosper loans. Notably, there is a strong negative correlation between credit grade and APR, indicating the significance of creditworthiness. The relationship between loan amount and APR is complex, with non-linear patterns emerging. These findings form the basis for further analysis and modeling.
+
+## Key Insights for Presentation
+
+In the explanatory presentation, we plan to focus on illustrating the impact of credit grade on borrower APR, emphasizing the non-linear dynamics with loan amounts, and the relationship between loan status and APR variations. The visualizations will be refined to clearly convey these relationships, and additional charts may be introduced to enhance the narrative. The presentation aims to provide a comprehensive understanding of the factors shaping borrower APR in Prosper loans.
